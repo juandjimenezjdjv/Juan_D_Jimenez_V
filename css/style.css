@@ -36,15 +36,17 @@ h3 {
 }
 .top {
     background-color: #0c4d75;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0% 0% 0%;  
 }
 .middle {
     background-color: #f9f7f0;
     line-height: 2;
-    margin: 5% 5%; 
-    padding-top: 50px;
+    margin: 10px 10px; 
+    padding-top: 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
 .bottom {
     background-color: #0c4d75;
@@ -62,7 +64,7 @@ h3 {
 }
 .skill-row {
     margin: 25px auto 50px auto;
-    width: 50%;
+    width: 75%;
     text-align: left;
     line-height: 2;
 }
@@ -91,7 +93,7 @@ h3 {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
-/* #072A40 */
+
 .btn:hover {
     background: #0c4d75;
     color: #f9f7f0;
@@ -106,9 +108,10 @@ a {
 .hlo {
     color: black;
     font-size: 18px;
+    text-decoration: underline;
 }
 .hlo:hover{
-    color: #0c4d75;
+    color: #1b80c0;
     text-decoration: underline;
 }
 a:hover {
@@ -121,6 +124,20 @@ a:hover {
     padding: 20px 0px;
 }
 .img_profile {
-    width: 30%;
+    width: 1%;
     margin-bottom: 50px;
+    flex: 2;
+    margin-right: 100px;
+    height: 1%;
+}
+
+.profile-container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.hla {
+    flex: 2;
 }
