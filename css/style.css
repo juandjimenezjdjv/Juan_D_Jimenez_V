@@ -9,7 +9,7 @@ hr {
     border-left: none;
     border-right: none;
     width: 10%;
-    margin: 75px auto 50px;
+    margin: 50px auto 50px;
 }
 h1 {
     font-size: 100px;
@@ -30,6 +30,14 @@ h2 {
 .sub{
     color: #f9f7f0;
 }
+
+.sub-blue {
+    color: #0c4d75;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #0c4d75;
@@ -38,8 +46,20 @@ h3 {
     background-color: #0c4d75;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0% 0% 0%;  
+    margin: 0% 0% 0%;
+    text-align: center;
 }
+
+.top-portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c4d75;
+    padding: 20px 20%;
+    margin: 0;
+    color: white;
+  }
+
 .middle {
     background-color: #f9f7f0;
     line-height: 2;
@@ -48,6 +68,12 @@ h3 {
     padding-bottom: 50px;
     text-align: center;
 }
+
+.portfolio-container {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
 .bottom {
     background-color: #0c4d75;
     margin: 0% 0% 0%;
@@ -99,6 +125,35 @@ h3 {
     color: #f9f7f0;
     text-decoration: none;
 }
+
+.wtom {
+    margin-left: 0px;
+}
+
+.btn-claro {
+    background: #0c4d75;
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-weight: normal;
+    color: #f9f7f0;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-claro:hover {
+    background: #f9f7f0;
+    color: #0c4d75;
+    text-decoration: none;
+}
+
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 a {
     color: #f9f7f0;
     font-family: 'Montserrat', sans-serif;
@@ -140,4 +195,13 @@ a:hover {
 
 .hla {
     flex: 2;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    padding-bottom: 33.720px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
 }
