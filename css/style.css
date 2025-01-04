@@ -13,7 +13,7 @@ hr {
 }
 h1 {
     font-size: 100px;
-    width: 50%;
+    width: 60%;
     line-height: 2;
     margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -43,21 +43,24 @@ h3 {
     color: #0c4d75;
 }
 .top {
-    background-color: #0c4d75;
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0% 0% 0%;
     text-align: center;
+    background: linear-gradient(to bottom, #095489, #0a3d62 95%);
 }
 
 .top-portfolio {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0c4d75;
-    padding: 20px 20%;
+    padding: 0px 20%;
     margin: 0;
     color: white;
+    background: linear-gradient(to bottom, #0a3d62, #095489 95%);
   }
 
 .middle {
@@ -75,10 +78,10 @@ h3 {
   }
 
 .bottom {
-    background-color: #0c4d75;
     margin: 0% 0% 0%;
     padding-top: 50px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;    
+    background: linear-gradient(to bottom, #095489, #0a3d62 95%);
 }
 .stu {
     text-decoration: underline;
@@ -131,7 +134,6 @@ h3 {
 }
 
 .btn-claro {
-    background: #0c4d75;
     -webkit-border-radius: 12;
     -moz-border-radius: 12;
     border-radius: 12px;
@@ -204,4 +206,28 @@ a:hover {
     border-radius: 8px;
     margin-bottom: 20px;
     text-align: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 16px;
+}
+
+.contact-color {
+    color: #000000;
+    font-family: 'Unbounded', cursive;
+}
+
+.contact-color:hover {
+    color: #000000;
+    text-decoration:underline;
 }
