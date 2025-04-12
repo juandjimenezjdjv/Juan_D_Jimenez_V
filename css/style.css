@@ -42,6 +42,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #0c4d75;
 }
+/* TOP */
 .top {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -51,17 +52,59 @@ h3 {
 }
 
 .top-portfolio {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0px 20%;
-    margin: 0;
     color: white;
     background: linear-gradient(to bottom, #0a3d62, #095489 95%);
-  }
+}
+  
+nav ul {
+display: flex;
+list-style: none;
+gap: 1rem;
+padding: 0;
+margin: 0;
+}
+
+.hamburger {
+display: none;
+font-size: 2rem;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+/* Estilos responsive para pantallas pequeñas */
+@media (max-width: 1120px) {
+    .btn-claro {
+        display: none; /* Oculta texto HOME */
+      }
+
+    .hamburger {
+    display: block;
+    color: white;
+    }
+
+    nav {
+    display: none;
+    width: 100%;
+    }
+
+    nav.show {
+    display: block;
+    padding-bottom: 20px;
+    }
+
+    nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
+
+/* Middle */
 
 .middle {
     background-color: #f9f7f0;

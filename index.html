@@ -21,19 +21,22 @@
   <body>
     <div class="top-portfolio">
       <div class="home-container">
-        <a href="./index.html"><img src="./images/home.png" alt="Home icon" style="height: 30px; width: 30px;"></a>
+        <a href="./index.html">
+          <img src="./images/home.png" alt="Home icon" style="height: 30px; width: 30px;">
+        </a>
         <a href="./index.html" class="btn-claro">HOME</a>
-      </div> 
-      <div>
-        <nav>
-          <ul>
-            <li><a href="./Porfolio.html">Portfolio</a></li>
-            <li><a href="#knowledge">Skills</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
+      
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      
+      <nav id="menu">
+        <ul>
+          <li><a href="./Porfolio.html">Portfolio</a></li>
+          <li><a href="#knowledge">Skills</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
     
     <div class="top">
@@ -180,4 +183,5 @@
     </div>
       
   </body>
+  <script src="script.js"></script>
 </html>
