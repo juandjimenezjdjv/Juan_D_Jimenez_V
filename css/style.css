@@ -56,7 +56,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0px 20%;
+    padding: 0px 10%;
     color: white;
     background: linear-gradient(to bottom, #0a3d62, #095489 95%);
 }
@@ -77,11 +77,12 @@ border: none;
 cursor: pointer;
 }
 
+.title-mobile {
+    display: none;
+}
+
 /* Estilos responsive para pantallas pequeñas */
-@media (max-width: 1120px) {
-    .btn-claro {
-        display: none; /* Oculta texto HOME */
-      }
+@media (max-width: 940px) {
 
     .hamburger {
     display: block;
@@ -100,9 +101,47 @@ cursor: pointer;
 
     nav ul {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
+    }
+
+    .title-desktop {
+        display: none;
+    }
+    
+    .title-mobile {
+    display: block;
+    font-size: 5rem;
     }
 }
+
+/* Ajustes para el texto del encabezado en móvil */
+@media (max-width: 940px) {
+    
+    .profile-container {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .img_profile {
+        width: 90%;       
+        min-width: 400px;
+        margin: 50px 100px 0 100px;
+    }
+
+    .hla {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    p.hla {
+        text-align: center;
+        padding: 0px 10px 50px 10px;
+        margin: 1%;
+        width: 80%;
+    }
+}
+
 
 /* Middle */
 
@@ -113,6 +152,7 @@ cursor: pointer;
     padding-top: 20px;
     padding-bottom: 50px;
     text-align: center;
+    width: 100%;
 }
 
 .portfolio-container {
@@ -224,18 +264,19 @@ a:hover {
     padding: 20px 0px;
 }
 .img_profile {
-    width: 1%;
+    width: 200px;
     margin-bottom: 50px;
     flex: 2;
     margin-right: 100px;
-    height: 1%;
+    height: auto;
 }
 
 .profile-container {
     display: flex;
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 10px;
+    gap: 20px;
+    align-items: center;
 }
 
 .hla {
