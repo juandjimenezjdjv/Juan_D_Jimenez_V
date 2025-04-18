@@ -87,6 +87,7 @@ cursor: pointer;
     .hamburger {
     display: block;
     color: white;
+    padding-right: 40px;
     }
 
     nav {
@@ -110,7 +111,7 @@ cursor: pointer;
     
     .title-mobile {
     display: block;
-    font-size: 5rem;
+    font-size: 4rem;
     }
     
     .profile-container {
@@ -135,6 +136,11 @@ cursor: pointer;
         padding: 0px 10px 50px 10px;
         margin: 1%;
         width: 80%;
+    }
+
+    .top-portfolio {
+        width: 100%;
+        padding: 0px;
     }
 }
 
