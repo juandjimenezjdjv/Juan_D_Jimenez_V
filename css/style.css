@@ -112,10 +112,6 @@ cursor: pointer;
     display: block;
     font-size: 5rem;
     }
-}
-
-/* Ajustes para el texto del encabezado en móvil */
-@media (max-width: 940px) {
     
     .profile-container {
         flex-direction: column !important;
@@ -125,7 +121,7 @@ cursor: pointer;
 
     .img_profile {
         width: 90%;       
-        min-width: 400px;
+        min-width: 350px;
         margin: 50px 100px 0 100px;
     }
 
