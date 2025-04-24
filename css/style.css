@@ -317,3 +317,26 @@ nav ul li a {
     color: #000000;
     text-decoration:underline;
 }
+
+/* Skills and tech seccion */
+.skills-tags {
+    padding: 2rem 1rem;
+}
+
+.skills-tags h2 {
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background-color: #0c4d753d;
+    color: #0c4d75;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.skills-tags .skill-row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
