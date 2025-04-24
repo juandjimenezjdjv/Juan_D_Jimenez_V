@@ -52,13 +52,16 @@ h3 {
 }
 
 .top-portfolio {
+    background: linear-gradient(to bottom, #0a3d62, #095489 95%);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     padding: 0px 15%;
     color: white;
-    background: linear-gradient(to bottom, #0a3d62, #095489 95%);
 }
   
 nav ul {
