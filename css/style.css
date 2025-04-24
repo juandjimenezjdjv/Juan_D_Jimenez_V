@@ -142,6 +142,13 @@ cursor: pointer;
         width: 100%;
         padding: 0px;
     }
+
+    .btn-groupBtn {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; 
+        width: 200px;
+    }
 }
 
 
